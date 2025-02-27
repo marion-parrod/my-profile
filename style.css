@@ -1,0 +1,87 @@
+body {
+  color: rgb(0, 0, 0);
+  background-color: lightpink;
+  font-family: "Libre Baskerville", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+	line-height: 1.8;
+	letter-spacing: 1px;
+	text-align: justify;
+	
+}
+
+h1 {
+  color: #AC1754;
+	font-size: 40px;
+	font-weight: 10000;
+	font-family: Helvetica;
+}
+
+
+h2 {
+  color: deeppink;
+	font-size: 20px;
+	font-family: Helvetica;
+}
+
+a {
+  color: #7D1C4A;
+  font-weight: bold;
+}
+
+a:hover {
+  color: lightyellow;
+}
+
+#Marion {
+  border-radius: 100px;
+  border-color: deeppink;
+  box-shadow: 5px 5px 3px hotpink;
+  border: 5px solid deeppink;
+}
+
+ .container {
+  width: 700px;
+  margin: 80px auto;
+}
+
+@media (max-width: 760px) {
+  	.container {
+  	width: 600px;
+	}
+}
+
+@media (max-width: 500px) {
+  	.container {
+  	width: 400px;
+	}
+}
+
+
+.card-pink {
+  box-shadow: 5px 5px 3px hotpink;
+  padding: 30px;
+  background: #f9c6df;
+  border-radius: 4px;
+  margin: 80px auto;
+  text-align: center;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline li {
+  display: inline;
+  padding: 10px;
+}
+
+.list-inline i {
+  front-size: 50px;
+}
+
+.list-inline i:hover {
+  color: lightyellow;
+}
